@@ -5,7 +5,7 @@
     "repository": {},
     "license": "MIT",
     "scripts": {
-        "test": "nodemon --exec \"mocha --recursive\""
+        "test": "nodemon --exec \"mocha **/*.test.js\""
     },
     "dependencies": {
         "express": "^4.14.1"
@@ -13,6 +13,8 @@
     "devDependencies": {
         "expect": "^1.20.2",
         "mocha": "^3.2.0",
-        "nodemon": "^1.11.0"
+        "nodemon": "^1.11.0",
+        "supertest": "^3.0.0",
+        "rewire": "^2.5.2"
     }
 }
